@@ -7,86 +7,92 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f5f7;
+            color: #222;
             text-align: center;
             margin: 0;
             padding: 0;
         }
         header {
             background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
         }
         .logo {
-            width: 120px;
+            width: 130px;
         }
         h1 {
-            font-size: 2em;
-            margin: 10px 0;
+            font-size: 2.2em;
+            margin: 12px 0;
         }
         p {
-            color: #666;
+            color: #555;
         }
         .pricing-section {
-            margin: 40px auto;
-            max-width: 600px;
+            margin: 50px auto;
+            max-width: 650px;
         }
         .tagline {
-            font-size: 1.1em;
-            margin-bottom: 20px;
-            color: #504e4e;
+            font-size: 1.15em;
+            margin-bottom: 25px;
+            color: #454343;
         }
         .pricing-card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
             position: relative;
         }
         .no-fee-circle {
-            width: 100px;
-            height: 100px;
-            background: #f8d7da;
-            color: #f3571f;
-            font-size: 0.8em;
-            border-radius: 100%;
+            width: 110px;
+            height: 110px;
+            background: #f3c0c4;
+            color: #d14c1d;
+            font-size: 0.85em;
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             position: absolute;
-            left: -40px;
-            top: -40px;
+            left: -45px;
+            top: -45px;
+            font-weight: bold;
         }
         .price {
-            font-size: 2em;
+            font-size: 2.2em;
             font-weight: bold;
-            color: #000000;
+            color: #111;
         }
         .get-started {
-            background-color: #f76f35;
+            background-color: #e65c2c;
             color: #fff;
-            padding: 10px 30px;
+            padding: 12px 35px;
             border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            margin: 20px 0;
+            border-radius: 6px;
+            font-size: 1.1em;
+            margin: 25px 0;
             cursor: pointer;
+            transition: background 0.3s;
+        }
+        .get-started:hover {
+            background-color: #c94b24;
         }
         .features {
             text-align: left;
-            margin-top: 20px;
+            margin-top: 25px;
         }
         .features h3 {
-            font-size: 1.2em;
-            margin-bottom: 10px;
+            font-size: 1.3em;
+            margin-bottom: 12px;
         }
         .features ul {
-            padding-left: 20px;
+            padding-left: 25px;
         }
         .features li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            line-height: 1.4;
         }
         .check {
             color: #d9534f;
@@ -94,57 +100,57 @@
         }
         .more-features {
             font-style: italic;
-            margin-top: 10px;
+            margin-top: 12px;
         }
     </style>
 </head>
 <body>
     <header>
         <img src="https://fresher-repo-blob.vercel.app/003/logo2.webp" alt="Orderific Logo" class="logo">
-        <h1>Pricing</h1>
-        <p>Plans for restaurants of all sizes</p>
+        <h1>Our Pricing</h1>
+        <p>Flexible plans to suit restaurants of all sizes</p>
     </header>
     <section class="pricing-section">
-        <p class="tagline">Explore Our Cost-Effective Plans Tailored to Scale Your Business</p>
+        <p class="tagline">Discover cost-effective solutions designed to grow your business</p>
         <div class="pricing-card">
-            <div class="no-fee-circle">No Setup Fee <br> or <br> Binding Contracts</div>
-            <h2>Full/Pro Plan</h2>
+            <div class="no-fee-circle">No Setup Fee <br> No Long-Term Contracts</div>
+            <h2>Pro Business Plan</h2>
             <div class="price">$99/month</div>
-            <p><h4>Become a culinary sensation with Orderific's Full Plan at just $99/month.<h4></p>
+            <p><h4>Boost your restaurant’s success with our Pro Plan at just $99/month.</h4></p>
             <button class="get-started">Get Started</button>
             <div class="features">
                 <h3>Key Features:</h3>
                 <ul>
-                    <li><span class="check">✔</span> Digital Smart Menu</li>
-                    <li>Interactive menu system with real-time updates.</li>
-                    <li><span class="check">✔</span> Loyalty Program</li>
-                    <li>Features for rewarding and retaining customers.</li>
-                    <li><span class="check">✔</span> Business Analytics</li>
-                    <li>Tools for analyzing and strategizing business data.</li>
-                    <li><span class="check">✔</span> Website Builder</li>
-                    <li>Tools for creating a dynamic online presence.</li>
-                    <li><span class="check">✔</span> Integrated Payment Options</li>
-                    <li>Diverse payment methods for customer convenience.</li>
-                    <li><span class="check">✔</span> Delivery System Setup</li>
-                    <li>Tools for establishing and managing delivery services.</li>
-                    <li><span class="check">✔</span> Marketing Tools</li>
-                    <li>Resources to enhance marketing reach and effectiveness.</li>
-                    <li><span class="check">✔</span> Menu Translation</li>
-                    <li>Feature to translate menus into multiple languages.</li>
-                    <li><span class="check">✔</span> Clear Reporting</li>
-                    <li>Stay informed with straightforward analytics.</li>
-                    <li><span class="check">✔</span> Seamless POS Integration</li>
-                    <li>Efficient integration with point-of-sale systems.</li>
-                  </ul>
-                  <p class="more-features">...and much more!</p>
-                  <h3 class="visionary">Ideal for Visionary Restaurateurs:</h3>
-                  <p>
-                    <h5>Choose this plan to elevate your dining experience and set your
-                      restaurant apart. Ideal for combining technology and insights to
-                      grow your business.</h5>
-                  </p>
+                    <li><strong>Interactive Digital Menu</strong></li>
+                    <li>Live updates for a seamless dining experience.</li>
+                    <li><strong>Customer Loyalty Program</strong></li>
+                    <li>Reward customers and boost repeat visits.</li>
+                    <li><strong>Business Insights & Analytics</strong></li>
+                    <li>Data-driven decision-making tools.</li>
+                    <li><strong>Website & Branding</strong></li>
+                    <li>Craft a stunning online presence.</li>
+                    <li><strong>Multiple Payment Options</strong></li>
+                    <li>Secure and diverse payment integrations.</li>
+                    <li><strong>Custom Delivery System</strong></li>
+                    <li>Built-in tools to manage food delivery.</li>
+                    <li><strong>Advanced Marketing Tools</strong></li>
+                    <li>Maximize reach with innovative strategies.</li>
+                    <li><strong>Multi-Language Menu</strong></li>
+                    <li>Automatic translations for global customers.</li>
+                    <li><strong>Transparent Reporting</strong></li>
+                    <li>Clear analytics for business tracking.</li>
+                    <li><span class="check">✔</span> POS System Compatibility</li>
+                    <li>Seamless integration with leading POS platforms.</li>
+                </ul>
+                <p class="more-features">...and much more!</p>
+                <h3 class="visionary">Perfect for Ambitious Restaurateurs:</h3>
+                <p>
+                    <h5>Enhance customer experience and drive growth with our Pro Plan—
+                      tailored for restaurant owners who want to stay ahead.</h5>
+                </p>
             </div>
         </div>
     </section>
 </body>
 </html>
+
